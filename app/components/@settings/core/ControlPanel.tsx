@@ -460,7 +460,7 @@ export const ControlPanel = ({ open, onClose }: ControlPanelProps) => {
                       </button>
                     )}
                     <DialogTitle className="text-xl font-semibold text-gray-900 dark:text-white">
-                      {showTabManagement ? 'Tab Management' : activeTab ? TAB_LABELS[activeTab] : 'Control Panel'}
+                      {showTabManagement ? '탭 관리' : activeTab ? TAB_LABELS[activeTab] : '설정'}
                     </DialogTitle>
                   </div>
 

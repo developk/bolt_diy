@@ -11,9 +11,9 @@ const storedProfile = typeof window !== 'undefined' ? localStorage.getItem('bolt
 const initialProfile: Profile = storedProfile
   ? JSON.parse(storedProfile)
   : {
-      username: '',
-      bio: '',
-      avatar: '',
+      username: 'developk',
+      bio: '김멍멍',
+      avatar: 'https://avatars.githubusercontent.com/u/7677674?v=4',
     };
 
 export const profileStore = atom<Profile>(initialProfile);

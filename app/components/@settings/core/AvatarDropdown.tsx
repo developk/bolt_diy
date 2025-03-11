@@ -97,7 +97,7 @@ export const AvatarDropdown = ({ onSelectTab }: AvatarDropdownProps) => {
             onClick={() => onSelectTab('profile')}
           >
             <div className="i-ph:user-circle w-4 h-4 text-gray-400 group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors" />
-            Edit Profile
+            프로필 설정
           </DropdownMenu.Item>
 
           <DropdownMenu.Item
@@ -113,7 +113,7 @@ export const AvatarDropdown = ({ onSelectTab }: AvatarDropdownProps) => {
             onClick={() => onSelectTab('settings')}
           >
             <div className="i-ph:gear-six w-4 h-4 text-gray-400 group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors" />
-            Settings
+            설정
           </DropdownMenu.Item>
 
           <div className="my-1 border-t border-gray-200/50 dark:border-gray-800/50" />
@@ -131,7 +131,7 @@ export const AvatarDropdown = ({ onSelectTab }: AvatarDropdownProps) => {
             onClick={() => onSelectTab('task-manager')}
           >
             <div className="i-ph:activity w-4 h-4 text-gray-400 group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors" />
-            Task Manager
+            작업 관리자
             <BetaLabel />
           </DropdownMenu.Item>
 
@@ -148,7 +148,7 @@ export const AvatarDropdown = ({ onSelectTab }: AvatarDropdownProps) => {
             onClick={() => onSelectTab('service-status')}
           >
             <div className="i-ph:heartbeat w-4 h-4 text-gray-400 group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors" />
-            Service Status
+            서비스 상태
             <BetaLabel />
           </DropdownMenu.Item>
         </DropdownMenu.Content>

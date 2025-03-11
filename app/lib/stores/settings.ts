@@ -159,7 +159,7 @@ const getInitialSettings = () => {
     contextOptimization: getStoredBoolean(SETTINGS_KEYS.CONTEXT_OPTIMIZATION, true),
     eventLogs: getStoredBoolean(SETTINGS_KEYS.EVENT_LOGS, true),
     promptId: isBrowser ? localStorage.getItem(SETTINGS_KEYS.PROMPT_ID) || 'default' : 'default',
-    developerMode: getStoredBoolean(SETTINGS_KEYS.DEVELOPER_MODE, false),
+    developerMode: getStoredBoolean(SETTINGS_KEYS.DEVELOPER_MODE, true),
   };
 };
 
